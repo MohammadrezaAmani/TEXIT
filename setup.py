@@ -10,14 +10,14 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 VERSION = "0.4.2"
 
-PACKAGE_NAME = "inui"
+PACKAGE_NAME = "texit"
 DESCRIPTION = ""
 LONG_DESCRIPTION = "Powerful and Highly Customizable Python Library for UI"
 AUTHOR_NAME = "Mohammadreza Amani"
 AUTHOR_EMAIL = "more.amani@yahoo.com"
-PROJECT_URL = "https://github.com/MohammadrezaAmani/INUI/"
+PROJECT_URL = "https://github.com/MohammadrezaAmani/TEXIT/"
 REQUIRED_PACKAGES = []
-PROJECT_KEYWORDS = ["ui", "python", "html", "framework", "frontend", "bootstrap"]
+PROJECT_KEYWORDS = ["tex", "python", "latex", "framework", "pdf"]
 
 CLASSIFIERS = [
     "Development Status :: 1 - Planning",
