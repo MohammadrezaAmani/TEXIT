@@ -2,7 +2,7 @@ from texit import startex
 from texit.elements import *
 
 tex = startex(
-    documentclass("article"),
+    documentclass("article",args=["a4paper","12pt"]),
     usepackage("geometry"),
     begin("document"),
     section("Hello World"),

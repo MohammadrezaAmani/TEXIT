@@ -172,7 +172,7 @@ class BaseVoidElement(BaseElement):
     @classmethod
     def render(cls, prettify: bool = False):
         return f"\{cls.start_tag}"
-    
+
     @classmethod
     def __str__(cls):
         return cls.render()

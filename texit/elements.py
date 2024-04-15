@@ -5,9 +5,11 @@ class address(BaseElement):
     "\\address"
     start_tag = "address"
 
+
 class end(BaseElement):
     "\\end"
     start_tag = "end"
+
 
 class addtocounter(BaseElement):
     "\\addtocounter"
