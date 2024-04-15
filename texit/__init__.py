@@ -8,7 +8,7 @@ class startex:
     def __str__(self) -> str:
         text = ""
         for i in self.data:
-            text += str(i) + "\n"
+            text += i.__str__() + "\n"
 
         return text
 

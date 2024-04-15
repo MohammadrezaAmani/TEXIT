@@ -1,61 +1,61 @@
 from texit.base import BaseVoidElement
 
 
-class Acute(BaseVoidElement):
-    """\u301 related to `accent` category."""
+class acute(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "acute"
 
 
-class Bar(BaseVoidElement):
-    """\u304 related to `accent` category."""
+class bar(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "bar"
 
 
-class Breve(BaseVoidElement):
-    """\u306 related to `accent` category."""
+class breve(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "breve"
 
 
-class Check(BaseVoidElement):
-    """\u30c related to `accent` category."""
+class check(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "check"
 
 
-class Ddot(BaseVoidElement):
-    """\u308 related to `accent` category."""
+class ddot(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "ddot"
 
 
-class Dot(BaseVoidElement):
-    """\u307 related to `accent` category."""
+class dot(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "dot"
 
 
-class Grave(BaseVoidElement):
-    """\u300 related to `accent` category."""
+class grave(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "grave"
 
 
-class Hat(BaseVoidElement):
-    """\u302 related to `accent` category."""
+class hat(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "hat"
 
 
-class Tilde(BaseVoidElement):
-    """\u303 related to `accent` category."""
+class tilde(BaseVoidElement):
+    """related to `accent` category."""
 
     start_tag = "tilde"
 
 
-class Vec(BaseVoidElement):
+class vec(BaseVoidElement):
     """\u20d7 related to `accent` category."""
 
     start_tag = "vec"
@@ -115,398 +115,398 @@ class Updownarrow(BaseVoidElement):
     start_tag = "Updownarrow"
 
 
-class Downarrow(BaseVoidElement):
+class downarrow(BaseVoidElement):
     """\u2193 related to `arrow` category."""
 
     start_tag = "downarrow"
 
 
-class Hookleftarrow(BaseVoidElement):
+class hookleftarrow(BaseVoidElement):
     """\u21a9 related to `arrow` category."""
 
     start_tag = "hookleftarrow"
 
 
-class Hookrightarrow(BaseVoidElement):
+class hookrightarrow(BaseVoidElement):
     """\u21aa related to `arrow` category."""
 
     start_tag = "hookrightarrow"
 
 
-class Leftarrow(BaseVoidElement):
+class leftarrow(BaseVoidElement):
     """\u2190 related to `arrow` category."""
 
     start_tag = "leftarrow"
 
 
-class Leftharpoondown(BaseVoidElement):
+class leftharpoondown(BaseVoidElement):
     """\u21bd related to `arrow` category."""
 
     start_tag = "leftharpoondown"
 
 
-class Leftharpoonup(BaseVoidElement):
+class leftharpoonup(BaseVoidElement):
     """\u21bc related to `arrow` category."""
 
     start_tag = "leftharpoonup"
 
 
-class Leftrightarrow(BaseVoidElement):
+class leftrightarrow(BaseVoidElement):
     """\u2194 related to `arrow` category."""
 
     start_tag = "leftrightarrow"
 
 
-class Longleftarrow(BaseVoidElement):
+class longleftarrow(BaseVoidElement):
     """\u27f5 related to `arrow` category."""
 
     start_tag = "longleftarrow"
 
 
-class Longleftrightarrow(BaseVoidElement):
+class longleftrightarrow(BaseVoidElement):
     """\u27f7 related to `arrow` category."""
 
     start_tag = "longleftrightarrow"
 
 
-class Longmapsto(BaseVoidElement):
+class longmapsto(BaseVoidElement):
     """\u27fc related to `arrow` category."""
 
     start_tag = "longmapsto"
 
 
-class Longrightarrow(BaseVoidElement):
+class longrightarrow(BaseVoidElement):
     """\u27f6 related to `arrow` category."""
 
     start_tag = "longrightarrow"
 
 
-class Mapsto(BaseVoidElement):
+class mapsto(BaseVoidElement):
     """\u21a6 related to `arrow` category."""
 
     start_tag = "mapsto"
 
 
-class Nearrow(BaseVoidElement):
+class nearrow(BaseVoidElement):
     """\u2197 related to `arrow` category."""
 
     start_tag = "nearrow"
 
 
-class Nwarrow(BaseVoidElement):
+class nwarrow(BaseVoidElement):
     """\u2196 related to `arrow` category."""
 
     start_tag = "nwarrow"
 
 
-class Rightarrow(BaseVoidElement):
+class rightarrow(BaseVoidElement):
     """\u2192 related to `arrow` category."""
 
     start_tag = "rightarrow"
 
 
-class Rightharpoondown(BaseVoidElement):
+class rightharpoondown(BaseVoidElement):
     """\u21c1 related to `arrow` category."""
 
     start_tag = "rightharpoondown"
 
 
-class Rightharpoonup(BaseVoidElement):
+class rightharpoonup(BaseVoidElement):
     """\u21c0 related to `arrow` category."""
 
     start_tag = "rightharpoonup"
 
 
-class Searrow(BaseVoidElement):
+class searrow(BaseVoidElement):
     """\u2198 related to `arrow` category."""
 
     start_tag = "searrow"
 
 
-class Swarrow(BaseVoidElement):
+class swarrow(BaseVoidElement):
     """\u2199 related to `arrow` category."""
 
     start_tag = "swarrow"
 
 
-class Uparrow(BaseVoidElement):
+class uparrow(BaseVoidElement):
     """\u2191 related to `arrow` category."""
 
     start_tag = "uparrow"
 
 
-class Updownarrow(BaseVoidElement):
+class updownarrow(BaseVoidElement):
     """\u2195 related to `arrow` category."""
 
     start_tag = "updownarrow"
 
 
-class Amalg(BaseVoidElement):
+class amalg(BaseVoidElement):
     """\u2a3f related to `bin` category."""
 
     start_tag = "amalg"
 
 
-class Ast(BaseVoidElement):
+class ast(BaseVoidElement):
     """\u2217 related to `bin` category."""
 
     start_tag = "ast"
 
 
-class Bigcirc(BaseVoidElement):
+class bigcirc(BaseVoidElement):
     """\u25cb related to `bin` category."""
 
     start_tag = "bigcirc"
 
 
-class Bigtriangledown(BaseVoidElement):
+class bigtriangledown(BaseVoidElement):
     """\u25bd related to `bin` category."""
 
     start_tag = "bigtriangledown"
 
 
-class Bigtriangleup(BaseVoidElement):
+class bigtriangleup(BaseVoidElement):
     """\u25b3 related to `bin` category."""
 
     start_tag = "bigtriangleup"
 
 
-class Bullet(BaseVoidElement):
+class bullet(BaseVoidElement):
     """\u2219 related to `bin` category."""
 
     start_tag = "bullet"
 
 
-class Cap(BaseVoidElement):
+class cap(BaseVoidElement):
     """\u2229 related to `bin` category."""
 
     start_tag = "cap"
 
 
-class Cdot(BaseVoidElement):
+class cdot(BaseVoidElement):
     """\u22c5 related to `bin` category."""
 
     start_tag = "cdot"
 
 
-class Circ(BaseVoidElement):
+class circ(BaseVoidElement):
     """\u2218 related to `bin` category."""
 
     start_tag = "circ"
 
 
-class Cup(BaseVoidElement):
+class cup(BaseVoidElement):
     """\u222a related to `bin` category."""
 
     start_tag = "cup"
 
 
-class Dagger(BaseVoidElement):
+class dagger(BaseVoidElement):
     """\u2020 related to `bin` category."""
 
     start_tag = "dagger"
 
 
-class Ddagger(BaseVoidElement):
+class ddagger(BaseVoidElement):
     """\u2021 related to `bin` category."""
 
     start_tag = "ddagger"
 
 
-class Diamond(BaseVoidElement):
+class diamond(BaseVoidElement):
     """\u22c4 related to `bin` category."""
 
     start_tag = "diamond"
 
 
-class Div(BaseVoidElement):
-    """\uf7 related to `bin` category."""
+class div(BaseVoidElement):
+    """related to `bin` category."""
 
     start_tag = "div"
 
 
-class Lhd(BaseVoidElement):
+class lhd(BaseVoidElement):
     """related to `bin` category."""
 
     start_tag = "lhd"
 
 
-class Mp(BaseVoidElement):
+class mp(BaseVoidElement):
     """\u2213 related to `bin` category."""
 
     start_tag = "mp"
 
 
-class Odot(BaseVoidElement):
+class odot(BaseVoidElement):
     """\u2299 related to `bin` category."""
 
     start_tag = "odot"
 
 
-class Ominus(BaseVoidElement):
+class ominus(BaseVoidElement):
     """\u2296 related to `bin` category."""
 
     start_tag = "ominus"
 
 
-class Oplus(BaseVoidElement):
+class oplus(BaseVoidElement):
     """\u2295 related to `bin` category."""
 
     start_tag = "oplus"
 
 
-class Oslash(BaseVoidElement):
+class oslash(BaseVoidElement):
     """\u2205 related to `bin` category."""
 
     start_tag = "oslash"
 
 
-class Otimes(BaseVoidElement):
+class otimes(BaseVoidElement):
     """\u2297 related to `bin` category."""
 
     start_tag = "otimes"
 
 
-class Pm(BaseVoidElement):
-    """\ub1 related to `bin` category."""
+class pm(BaseVoidElement):
+    """related to `bin` category."""
 
     start_tag = "pm"
 
 
-class Rhd(BaseVoidElement):
+class rhd(BaseVoidElement):
     """related to `bin` category."""
 
     start_tag = "rhd"
 
 
-class Setminus(BaseVoidElement):
+class setminus(BaseVoidElement):
     """\u2216 related to `bin` category."""
 
     start_tag = "setminus"
 
 
-class Sqcap(BaseVoidElement):
+class sqcap(BaseVoidElement):
     """\u2293 related to `bin` category."""
 
     start_tag = "sqcap"
 
 
-class Star(BaseVoidElement):
+class star(BaseVoidElement):
     """\u22c6 related to `bin` category."""
 
     start_tag = "star"
 
 
-class Times(BaseVoidElement):
-    """\ud7 related to `bin` category."""
+class times(BaseVoidElement):
+    """related to `bin` category."""
 
     start_tag = "times"
 
 
-class Triangleleft(BaseVoidElement):
+class triangleleft(BaseVoidElement):
     """\u25c1 related to `bin` category."""
 
     start_tag = "triangleleft"
 
 
-class Triangleright(BaseVoidElement):
+class triangleright(BaseVoidElement):
     """\u25b7 related to `bin` category."""
 
     start_tag = "triangleright"
 
 
-class Unlhd(BaseVoidElement):
+class unlhd(BaseVoidElement):
     """related to `bin` category."""
 
     start_tag = "unlhd"
 
 
-class Unrhd(BaseVoidElement):
+class unrhd(BaseVoidElement):
     """related to `bin` category."""
 
     start_tag = "unrhd"
 
 
-class Uplus(BaseVoidElement):
+class uplus(BaseVoidElement):
     """\u228e related to `bin` category."""
 
     start_tag = "uplus"
 
 
-class Vee(BaseVoidElement):
+class vee(BaseVoidElement):
     """\u2228 related to `bin` category."""
 
     start_tag = "vee"
 
 
-class Wedge(BaseVoidElement):
+class wedge(BaseVoidElement):
     """\u2227 related to `bin` category."""
 
     start_tag = "wedge"
 
 
-class Wr(BaseVoidElement):
+class wr(BaseVoidElement):
     """\u2240 related to `bin` category."""
 
     start_tag = "wr"
 
 
-class Frac(BaseVoidElement):
+class frac(BaseVoidElement):
     """related to `constr` category."""
 
     start_tag = "frac"
 
 
-class Overbrace(BaseVoidElement):
+class overbrace(BaseVoidElement):
     """\ufe37 related to `constr` category."""
 
     start_tag = "overbrace"
 
 
-class Overleftarrow(BaseVoidElement):
+class overleftarrow(BaseVoidElement):
     """\u20d6 related to `constr` category."""
 
     start_tag = "overleftarrow"
 
 
-class Overline(BaseVoidElement):
+class overline(BaseVoidElement):
     """related to `constr` category."""
 
     start_tag = "overline"
 
 
-class Overrightarrow(BaseVoidElement):
+class overrightarrow(BaseVoidElement):
     """related to `constr` category."""
 
     start_tag = "overrightarrow"
 
 
-class Sqrt(BaseVoidElement):
+class sqrt(BaseVoidElement):
     """\u221a related to `constr` category."""
 
     start_tag = "sqrt"
 
 
-class Underbrace(BaseVoidElement):
+class underbrace(BaseVoidElement):
     """\ufe38 related to `constr` category."""
 
     start_tag = "underbrace"
 
 
-class Underline(BaseVoidElement):
+class underline(BaseVoidElement):
     """related to `constr` category."""
 
     start_tag = "underline"
 
 
-class Widehat(BaseVoidElement):
-    """\u302 related to `constr` category."""
+class widehat(BaseVoidElement):
+    """related to `constr` category."""
 
     start_tag = "widehat"
 
 
-class Widetilde(BaseVoidElement):
-    """\u303 related to `constr` category."""
+class widetilde(BaseVoidElement):
+    """related to `constr` category."""
 
     start_tag = "widetilde"
 
@@ -517,320 +517,320 @@ class Arrowvert(BaseVoidElement):
     start_tag = "Arrowvert"
 
 
-class Arrowvert(BaseVoidElement):
+class arrowvert(BaseVoidElement):
     """related to `delim` category."""
 
     start_tag = "arrowvert"
 
 
-class Backslash(BaseVoidElement):
-    """\u5c related to `delim` category."""
+class backslash(BaseVoidElement):
+    """related to `delim` category."""
 
     start_tag = "backslash"
 
 
-class Bracevert(BaseVoidElement):
+class bracevert(BaseVoidElement):
     """related to `delim` category."""
 
     start_tag = "bracevert"
 
 
-class Langle(BaseVoidElement):
+class langle(BaseVoidElement):
     """\u27e8 related to `delim` category."""
 
     start_tag = "langle"
 
 
-class Lceil(BaseVoidElement):
+class lceil(BaseVoidElement):
     """\u2308 related to `delim` category."""
 
     start_tag = "lceil"
 
 
-class Lfloor(BaseVoidElement):
+class lfloor(BaseVoidElement):
     """\u230a related to `delim` category."""
 
     start_tag = "lfloor"
 
 
-class Lgroup(BaseVoidElement):
+class lgroup(BaseVoidElement):
     """related to `delim` category."""
 
     start_tag = "lgroup"
 
 
-class Lmoustache(BaseVoidElement):
+class lmoustache(BaseVoidElement):
     """\u23b0 related to `delim` category."""
 
     start_tag = "lmoustache"
 
 
-class Rangle(BaseVoidElement):
+class rangle(BaseVoidElement):
     """\u27e9 related to `delim` category."""
 
     start_tag = "rangle"
 
 
-class Rceil(BaseVoidElement):
+class rceil(BaseVoidElement):
     """\u2309 related to `delim` category."""
 
     start_tag = "rceil"
 
 
-class Rfloor(BaseVoidElement):
+class rfloor(BaseVoidElement):
     """\u230b related to `delim` category."""
 
     start_tag = "rfloor"
 
 
-class Rgroup(BaseVoidElement):
+class rgroup(BaseVoidElement):
     """related to `delim` category."""
 
     start_tag = "rgroup"
 
 
-class Rmoustache(BaseVoidElement):
+class rmoustache(BaseVoidElement):
     """\u23b1 related to `delim` category."""
 
     start_tag = "rmoustache"
 
 
-class Alpha(BaseVoidElement):
-    """\u3b1 related to `greek` category."""
+class alpha(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "alpha"
 
 
-class Beta(BaseVoidElement):
-    """\u3b2 related to `greek` category."""
+class beta(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "beta"
 
 
-class Chi(BaseVoidElement):
-    """\u3c7 related to `greek` category."""
+class chi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "chi"
 
 
-class Delta(BaseVoidElement):
-    """\u3b4 related to `greek` category."""
+class delta(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "delta"
 
 
-class Epsilon(BaseVoidElement):
-    """\u3f5 related to `greek` category."""
+class epsilon(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "epsilon"
 
 
-class Eta(BaseVoidElement):
-    """\u3b7 related to `greek` category."""
+class eta(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "eta"
 
 
-class Gamma(BaseVoidElement):
-    """\u3b3 related to `greek` category."""
+class gamma(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "gamma"
 
 
-class Iota(BaseVoidElement):
-    """\u3b9 related to `greek` category."""
+class iota(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "iota"
 
 
-class Kappa(BaseVoidElement):
-    """\u3ba related to `greek` category."""
+class kappa(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "kappa"
 
 
-class Lambda(BaseVoidElement):
-    """\u3bb related to `greek` category."""
+class lambda_(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "lambda"
 
 
-class Mu(BaseVoidElement):
-    """\u3bc related to `greek` category."""
+class mu(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "mu"
 
 
-class Nu(BaseVoidElement):
-    """\u3bd related to `greek` category."""
+class nu(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "nu"
 
 
-class Omega(BaseVoidElement):
-    """\u3c9 related to `greek` category."""
+class omega(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "omega"
 
 
-class Phi(BaseVoidElement):
-    """\u3d5 related to `greek` category."""
+class phi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "phi"
 
 
-class Pi(BaseVoidElement):
-    """\u3c0 related to `greek` category."""
+class pi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "pi"
 
 
-class Psi(BaseVoidElement):
-    """\u3c8 related to `greek` category."""
+class psi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "psi"
 
 
-class Rho(BaseVoidElement):
-    """\u3c1 related to `greek` category."""
+class rho(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "rho"
 
 
-class Sigma(BaseVoidElement):
-    """\u3c3 related to `greek` category."""
+class sigma(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "sigma"
 
 
-class Tau(BaseVoidElement):
-    """\u3c4 related to `greek` category."""
+class tau(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "tau"
 
 
-class Theta(BaseVoidElement):
-    """\u3b8 related to `greek` category."""
+class theta(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "theta"
 
 
-class Upsilon(BaseVoidElement):
-    """\u3c5 related to `greek` category."""
+class upsilon(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "upsilon"
 
 
-class Varepsilon(BaseVoidElement):
-    """\u3b5 related to `greek` category."""
+class varepsilon(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "varepsilon"
 
 
-class Varphi(BaseVoidElement):
-    """\u3c6 related to `greek` category."""
+class varphi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "varphi"
 
 
-class Varpi(BaseVoidElement):
-    """\u3d6 related to `greek` category."""
+class varpi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "varpi"
 
 
-class Varrho(BaseVoidElement):
-    """\u3f1 related to `greek` category."""
+class varrho(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "varrho"
 
 
-class Varsigma(BaseVoidElement):
-    """\u3c2 related to `greek` category."""
+class varsigma(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "varsigma"
 
 
-class Vartheta(BaseVoidElement):
-    """\u3d1 related to `greek` category."""
+class vartheta(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "vartheta"
 
 
-class Xi(BaseVoidElement):
-    """\u3be related to `greek` category."""
+class xi(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "xi"
 
 
-class Zeta(BaseVoidElement):
-    """\u3b6 related to `greek` category."""
+class zeta(BaseVoidElement):
+    """related to `greek` category."""
 
     start_tag = "zeta"
 
 
 class Delta(BaseVoidElement):
-    """\u394 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Delta"
 
 
 class Gamma(BaseVoidElement):
-    """\u393 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Gamma"
 
 
 class Lambda(BaseVoidElement):
-    """\u39b related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Lambda"
 
 
 class Omega(BaseVoidElement):
-    """\u3a9 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Omega"
 
 
 class Phi(BaseVoidElement):
-    """\u3a6 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Phi"
 
 
 class Pi(BaseVoidElement):
-    """\u3a0 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Pi"
 
 
 class Psi(BaseVoidElement):
-    """\u3a8 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Psi"
 
 
 class Sigma(BaseVoidElement):
-    """\u3a3 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Sigma"
 
 
 class Theta(BaseVoidElement):
-    """\u398 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Theta"
 
 
 class Upsilon(BaseVoidElement):
-    """\u3d2 related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Upsilon"
 
 
 class Xi(BaseVoidElement):
-    """\u39e related to `Greek` category."""
+    """related to `Greek` category."""
 
     start_tag = "Xi"
 
@@ -847,169 +847,169 @@ class Re(BaseVoidElement):
     start_tag = "Re"
 
 
-class Aleph(BaseVoidElement):
+class aleph(BaseVoidElement):
     """\u2135 related to `misc` category."""
 
     start_tag = "aleph"
 
 
-class Angle(BaseVoidElement):
+class angle(BaseVoidElement):
     """\u2220 related to `misc` category."""
 
     start_tag = "angle"
 
 
-class Bot(BaseVoidElement):
+class bot(BaseVoidElement):
     """\u22a5 related to `misc` category."""
 
     start_tag = "bot"
 
 
-class Clubsuit(BaseVoidElement):
+class clubsuit(BaseVoidElement):
     """\u2663 related to `misc` category."""
 
     start_tag = "clubsuit"
 
 
-class Diamondsuit(BaseVoidElement):
+class diamondsuit(BaseVoidElement):
     """\u2662 related to `misc` category."""
 
     start_tag = "diamondsuit"
 
 
-class Ell(BaseVoidElement):
+class ell(BaseVoidElement):
     """\u2113 related to `misc` category."""
 
     start_tag = "ell"
 
 
-class Emptyset(BaseVoidElement):
+class emptyset(BaseVoidElement):
     """\u2205 related to `misc` category."""
 
     start_tag = "emptyset"
 
 
-class Exists(BaseVoidElement):
+class exists(BaseVoidElement):
     """\u2203 related to `misc` category."""
 
     start_tag = "exists"
 
 
-class Flat(BaseVoidElement):
+class flat(BaseVoidElement):
     """\u266d related to `misc` category."""
 
     start_tag = "flat"
 
 
-class Forall(BaseVoidElement):
+class forall(BaseVoidElement):
     """\u2200 related to `misc` category."""
 
     start_tag = "forall"
 
 
-class Hbar(BaseVoidElement):
+class hbar(BaseVoidElement):
     """\u210f related to `misc` category."""
 
     start_tag = "hbar"
 
 
-class Heartsuit(BaseVoidElement):
+class heartsuit(BaseVoidElement):
     """\u2661 related to `misc` category."""
 
     start_tag = "heartsuit"
 
 
-class Imath(BaseVoidElement):
-    """\u131 related to `misc` category."""
+class imath(BaseVoidElement):
+    """related to `misc` category."""
 
     start_tag = "imath"
 
 
-class Infty(BaseVoidElement):
+class infty(BaseVoidElement):
     """\u221e related to `misc` category."""
 
     start_tag = "infty"
 
 
-class Jmath(BaseVoidElement):
+class jmath(BaseVoidElement):
     """\u1d6a5 related to `misc` category."""
 
     start_tag = "jmath"
 
 
-class Mho(BaseVoidElement):
+class mho(BaseVoidElement):
     """\u2127 related to `misc` category."""
 
     start_tag = "mho"
 
 
-class Nabla(BaseVoidElement):
+class nabla(BaseVoidElement):
     """\u2207 related to `misc` category."""
 
     start_tag = "nabla"
 
 
-class Natural(BaseVoidElement):
+class natural(BaseVoidElement):
     """\u266e related to `misc` category."""
 
     start_tag = "natural"
 
 
-class Neg(BaseVoidElement):
-    """\uac related to `misc` category."""
+class neg(BaseVoidElement):
+    """related to `misc` category."""
 
     start_tag = "neg"
 
 
-class Not(BaseVoidElement):
-    """\u338 related to `misc` category."""
+class not_(BaseVoidElement):
+    """related to `misc` category."""
 
     start_tag = "not"
 
 
-class Partial(BaseVoidElement):
+class partial(BaseVoidElement):
     """\u2202 related to `misc` category."""
 
     start_tag = "partial"
 
 
-class Prime(BaseVoidElement):
+class prime(BaseVoidElement):
     """\u2032 related to `misc` category."""
 
     start_tag = "prime"
 
 
-class Sharp(BaseVoidElement):
+class sharp(BaseVoidElement):
     """\u266f related to `misc` category."""
 
     start_tag = "sharp"
 
 
-class Spadesuit(BaseVoidElement):
+class spadesuit(BaseVoidElement):
     """\u2660 related to `misc` category."""
 
     start_tag = "spadesuit"
 
 
-class Surd(BaseVoidElement):
+class surd(BaseVoidElement):
     """\u221a related to `misc` category."""
 
     start_tag = "surd"
 
 
-class Top(BaseVoidElement):
+class top(BaseVoidElement):
     """\u22a4 related to `misc` category."""
 
     start_tag = "top"
 
 
-class Triangle(BaseVoidElement):
+class triangle(BaseVoidElement):
     """\u25b3 related to `misc` category."""
 
     start_tag = "triangle"
 
 
-class Wp(BaseVoidElement):
+class wp(BaseVoidElement):
     """\u2118 related to `misc` category."""
 
     start_tag = "wp"
@@ -1033,217 +1033,217 @@ class Pr(BaseVoidElement):
     start_tag = "Pr"
 
 
-class Arccos(BaseVoidElement):
+class arccos(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "arccos"
 
 
-class Arcsin(BaseVoidElement):
+class arcsin(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "arcsin"
 
 
-class Arctan(BaseVoidElement):
+class arctan(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "arctan"
 
 
-class Arg(BaseVoidElement):
+class arg(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "arg"
 
 
-class Cos(BaseVoidElement):
+class cos(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "cos"
 
 
-class Cosh(BaseVoidElement):
+class cosh(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "cosh"
 
 
-class Cot(BaseVoidElement):
+class cot(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "cot"
 
 
-class Coth(BaseVoidElement):
+class coth(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "coth"
 
 
-class Csc(BaseVoidElement):
+class csc(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "csc"
 
 
-class Deg(BaseVoidElement):
+class deg(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "deg"
 
 
-class Det(BaseVoidElement):
+class det(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "det"
 
 
-class Dim(BaseVoidElement):
+class dim(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "dim"
 
 
-class Exp(BaseVoidElement):
+class exp(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "exp"
 
 
-class Gcd(BaseVoidElement):
+class gcd(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "gcd"
 
 
-class Hom(BaseVoidElement):
+class hom(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "hom"
 
 
-class Inf(BaseVoidElement):
+class inf(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "inf"
 
 
-class Ker(BaseVoidElement):
+class ker(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "ker"
 
 
-class Lg(BaseVoidElement):
+class lg(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "lg"
 
 
-class Lim(BaseVoidElement):
+class lim(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "lim"
 
 
-class Liminf(BaseVoidElement):
+class liminf(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "liminf"
 
 
-class Limsup(BaseVoidElement):
+class limsup(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "limsup"
 
 
-class Ln(BaseVoidElement):
+class ln(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "ln"
 
 
-class Log(BaseVoidElement):
+class log(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "log"
 
 
-class Max(BaseVoidElement):
+class max(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "max"
 
 
-class Min(BaseVoidElement):
+class min(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "min"
 
 
-class Sec(BaseVoidElement):
+class sec(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "sec"
 
 
-class Sin(BaseVoidElement):
+class sin(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "sin"
 
 
-class Sinh(BaseVoidElement):
+class sinh(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "sinh"
 
 
-class Sup(BaseVoidElement):
+class sup(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "sup"
 
 
-class Tan(BaseVoidElement):
+class tan(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "tan"
 
 
-class Tanh(BaseVoidElement):
+class tanh(BaseVoidElement):
     """related to `nonsymb` category."""
 
     start_tag = "tanh"
 
 
-class Cdots(BaseVoidElement):
+class cdots(BaseVoidElement):
     """\u22ef related to `punct` category."""
 
     start_tag = "cdots"
 
 
-class Colon(BaseVoidElement):
-    """\u3a related to `punct` category."""
+class colon(BaseVoidElement):
+    """related to `punct` category."""
 
     start_tag = "colon"
 
 
-class Ddots(BaseVoidElement):
+class ddots(BaseVoidElement):
     """\u22f1 related to `punct` category."""
 
     start_tag = "ddots"
 
 
-class Ldots(BaseVoidElement):
+class ldots(BaseVoidElement):
     """\u2026 related to `punct` category."""
 
     start_tag = "ldots"
 
 
-class Vdots(BaseVoidElement):
+class vdots(BaseVoidElement):
     """\u22ee related to `punct` category."""
 
     start_tag = "vdots"
@@ -1255,331 +1255,331 @@ class Join(BaseVoidElement):
     start_tag = "Join"
 
 
-class Approx(BaseVoidElement):
+class approx(BaseVoidElement):
     """\u2248 related to `rel` category."""
 
     start_tag = "approx"
 
 
-class Asymp(BaseVoidElement):
+class asymp(BaseVoidElement):
     """\u224d related to `rel` category."""
 
     start_tag = "asymp"
 
 
-class Bowtie(BaseVoidElement):
+class bowtie(BaseVoidElement):
     """\u22c8 related to `rel` category."""
 
     start_tag = "bowtie"
 
 
-class Cong(BaseVoidElement):
+class cong(BaseVoidElement):
     """\u2245 related to `rel` category."""
 
     start_tag = "cong"
 
 
-class Dashv(BaseVoidElement):
+class dashv(BaseVoidElement):
     """\u22a3 related to `rel` category."""
 
     start_tag = "dashv"
 
 
-class Doteq(BaseVoidElement):
+class doteq(BaseVoidElement):
     """\u2250 related to `rel` category."""
 
     start_tag = "doteq"
 
 
-class Equiv(BaseVoidElement):
+class equiv(BaseVoidElement):
     """\u2261 related to `rel` category."""
 
     start_tag = "equiv"
 
 
-class Frown(BaseVoidElement):
+class frown(BaseVoidElement):
     """\u2322 related to `rel` category."""
 
     start_tag = "frown"
 
 
-class Geq(BaseVoidElement):
+class geq(BaseVoidElement):
     """\u2265 related to `rel` category."""
 
     start_tag = "geq"
 
 
-class Gg(BaseVoidElement):
+class gg(BaseVoidElement):
     """\u226b related to `rel` category."""
 
     start_tag = "gg"
 
 
-class In(BaseVoidElement):
+class in_(BaseVoidElement):
     """\u2208 related to `rel` category."""
 
     start_tag = "in"
 
 
-class Leq(BaseVoidElement):
+class leq(BaseVoidElement):
     """\u2264 related to `rel` category."""
 
     start_tag = "leq"
 
 
-class Ll(BaseVoidElement):
+class ll(BaseVoidElement):
     """\u226a related to `rel` category."""
 
     start_tag = "ll"
 
 
-class Mid(BaseVoidElement):
+class mid(BaseVoidElement):
     """\u2223 related to `rel` category."""
 
     start_tag = "mid"
 
 
-class Models(BaseVoidElement):
+class models(BaseVoidElement):
     """\u22a7 related to `rel` category."""
 
     start_tag = "models"
 
 
-class Neq(BaseVoidElement):
+class neq(BaseVoidElement):
     """\u2260 related to `rel` category."""
 
     start_tag = "neq"
 
 
-class Ni(BaseVoidElement):
+class ni(BaseVoidElement):
     """\u220b related to `rel` category."""
 
     start_tag = "ni"
 
 
-class Parallel(BaseVoidElement):
+class parallel(BaseVoidElement):
     """\u2225 related to `rel` category."""
 
     start_tag = "parallel"
 
 
-class Perp(BaseVoidElement):
+class perp(BaseVoidElement):
     """\u27c2 related to `rel` category."""
 
     start_tag = "perp"
 
 
-class Prec(BaseVoidElement):
+class prec(BaseVoidElement):
     """\u227a related to `rel` category."""
 
     start_tag = "prec"
 
 
-class Preceq(BaseVoidElement):
+class preceq(BaseVoidElement):
     """\u2aaf related to `rel` category."""
 
     start_tag = "preceq"
 
 
-class Propto(BaseVoidElement):
+class propto(BaseVoidElement):
     """\u221d related to `rel` category."""
 
     start_tag = "propto"
 
 
-class Qed(BaseVoidElement):
+class qed(BaseVoidElement):
     """\u220e related to `rel` category."""
 
     start_tag = "qed"
 
 
-class Sim(BaseVoidElement):
+class sim(BaseVoidElement):
     """\u223c related to `rel` category."""
 
     start_tag = "sim"
 
 
-class Simeq(BaseVoidElement):
+class simeq(BaseVoidElement):
     """\u2243 related to `rel` category."""
 
     start_tag = "simeq"
 
 
-class Smile(BaseVoidElement):
+class smile(BaseVoidElement):
     """\u2323 related to `rel` category."""
 
     start_tag = "smile"
 
 
-class Sqsubset(BaseVoidElement):
+class sqsubset(BaseVoidElement):
     """\u228f related to `rel` category."""
 
     start_tag = "sqsubset"
 
 
-class Sqsubseteq(BaseVoidElement):
+class sqsubseteq(BaseVoidElement):
     """\u2291 related to `rel` category."""
 
     start_tag = "sqsubseteq"
 
 
-class Sqsupset(BaseVoidElement):
+class sqsupset(BaseVoidElement):
     """\u2290 related to `rel` category."""
 
     start_tag = "sqsupset"
 
 
-class Sqsupseteq(BaseVoidElement):
+class sqsupseteq(BaseVoidElement):
     """\u2292 related to `rel` category."""
 
     start_tag = "sqsupseteq"
 
 
-class Subset(BaseVoidElement):
+class subset(BaseVoidElement):
     """\u2282 related to `rel` category."""
 
     start_tag = "subset"
 
 
-class Subseteq(BaseVoidElement):
+class subseteq(BaseVoidElement):
     """\u2286 related to `rel` category."""
 
     start_tag = "subseteq"
 
 
-class Succ(BaseVoidElement):
+class succ(BaseVoidElement):
     """\u227b related to `rel` category."""
 
     start_tag = "succ"
 
 
-class Succeq(BaseVoidElement):
+class succeq(BaseVoidElement):
     """\u2ab0 related to `rel` category."""
 
     start_tag = "succeq"
 
 
-class Supset(BaseVoidElement):
+class supset(BaseVoidElement):
     """\u2283 related to `rel` category."""
 
     start_tag = "supset"
 
 
-class Supseteq(BaseVoidElement):
+class supseteq(BaseVoidElement):
     """\u2287 related to `rel` category."""
 
     start_tag = "supseteq"
 
 
-class Vdash(BaseVoidElement):
+class vdash(BaseVoidElement):
     """\u22a2 related to `rel` category."""
 
     start_tag = "vdash"
 
 
-class Bigcap(BaseVoidElement):
+class bigcap(BaseVoidElement):
     """\u22c2 related to `var` category."""
 
     start_tag = "bigcap"
 
 
-class Bigcup(BaseVoidElement):
+class bigcup(BaseVoidElement):
     """\u22c3 related to `var` category."""
 
     start_tag = "bigcup"
 
 
-class Bigodot(BaseVoidElement):
+class bigodot(BaseVoidElement):
     """\u2a00 related to `var` category."""
 
     start_tag = "bigodot"
 
 
-class Bigoplus(BaseVoidElement):
+class bigoplus(BaseVoidElement):
     """\u2a01 related to `var` category."""
 
     start_tag = "bigoplus"
 
 
-class Bigotimes(BaseVoidElement):
+class bigotimes(BaseVoidElement):
     """\u2a02 related to `var` category."""
 
     start_tag = "bigotimes"
 
 
-class Bigsqcup(BaseVoidElement):
+class bigsqcup(BaseVoidElement):
     """\u2a06 related to `var` category."""
 
     start_tag = "bigsqcup"
 
 
-class Biguplus(BaseVoidElement):
+class biguplus(BaseVoidElement):
     """\u2a04 related to `var` category."""
 
     start_tag = "biguplus"
 
 
-class Bigvee(BaseVoidElement):
+class bigvee(BaseVoidElement):
     """\u22c1 related to `var` category."""
 
     start_tag = "bigvee"
 
 
-class Bigwedge(BaseVoidElement):
+class bigwedge(BaseVoidElement):
     """\u22c0 related to `var` category."""
 
     start_tag = "bigwedge"
 
 
-class Coprod(BaseVoidElement):
+class coprod(BaseVoidElement):
     """\u2210 related to `var` category."""
 
     start_tag = "coprod"
 
 
-class Int(BaseVoidElement):
+class int(BaseVoidElement):
     """\u222b related to `var` category."""
 
     start_tag = "int"
 
 
-class Oint(BaseVoidElement):
+class oint(BaseVoidElement):
     """\u222e related to `var` category."""
 
     start_tag = "oint"
 
 
-class Prod(BaseVoidElement):
+class prod(BaseVoidElement):
     """\u220f related to `var` category."""
 
     start_tag = "prod"
 
 
-class Sum(BaseVoidElement):
+class sum(BaseVoidElement):
     """\u2211 related to `var` category."""
 
     start_tag = "sum"
 
 
-class Land(BaseVoidElement):
+class land(BaseVoidElement):
     """∧ related to `bin` category."""
 
     start_tag = "land"
 
 
-class Lor(BaseVoidElement):
+class lor(BaseVoidElement):
     """∨ related to `bin` category."""
 
     start_tag = "lor"
 
 
-class Rbrace(BaseVoidElement):
+class rbrace(BaseVoidElement):
     """} related to `close` category."""
 
     start_tag = "rbrace"
 
 
-class Vert(BaseVoidElement):
+class vert(BaseVoidElement):
     """| related to `fence` category."""
 
     start_tag = "vert"
@@ -1591,55 +1591,55 @@ class Vert(BaseVoidElement):
     start_tag = "Vert"
 
 
-class Lbrace(BaseVoidElement):
+class lbrace(BaseVoidElement):
     """{ related to `open` category."""
 
     start_tag = "lbrace"
 
 
-class Mathdollar(BaseVoidElement):
+class mathdollar(BaseVoidElement):
     """$ related to `ord` category."""
 
     start_tag = "mathdollar"
 
 
-class Lnot(BaseVoidElement):
+class lnot(BaseVoidElement):
     """¬ related to `ord` category."""
 
     start_tag = "lnot"
 
 
-class Gets(BaseVoidElement):
+class gets(BaseVoidElement):
     """← related to `rel` category."""
 
     start_tag = "gets"
 
 
-class To(BaseVoidElement):
+class to(BaseVoidElement):
     """→ related to `rel` category."""
 
     start_tag = "to"
 
 
-class Owns(BaseVoidElement):
+class owns(BaseVoidElement):
     """∋ related to `rel` category."""
 
     start_tag = "owns"
 
 
-class Ne(BaseVoidElement):
+class ne(BaseVoidElement):
     """≠ related to `rel` category."""
 
     start_tag = "ne"
 
 
-class Le(BaseVoidElement):
+class le(BaseVoidElement):
     """≤ related to `rel` category."""
 
     start_tag = "le"
 
 
-class Ge(BaseVoidElement):
+class ge(BaseVoidElement):
     """≥ related to `rel` category."""
 
     start_tag = "ge"
@@ -1651,7 +1651,7 @@ class P(BaseVoidElement):
     start_tag = "P"
 
 
-class Textpilcrow(BaseVoidElement):
+class textpilcrow(BaseVoidElement):
     """¶ related to `misc` category."""
 
     start_tag = "textpilcrow"

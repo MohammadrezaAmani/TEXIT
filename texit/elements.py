@@ -1,22 +1,25 @@
 from texit.base import BaseElement
 
 
-class Address(BaseElement):
+class address(BaseElement):
     "\\address"
     start_tag = "address"
 
+class end(BaseElement):
+    "\\end"
+    start_tag = "end"
 
-class Addtocounter(BaseElement):
+class addtocounter(BaseElement):
     "\\addtocounter"
     start_tag = "addtocounter"
 
 
-class Addtolength(BaseElement):
+class addtolength(BaseElement):
     "\\addtolength"
     start_tag = "addtolength"
 
 
-class Addvspace(BaseElement):
+class addvspace(BaseElement):
     "\\addvspace"
     start_tag = "addvspace"
 
@@ -26,7 +29,7 @@ class Alph(BaseElement):
     start_tag = "Alph"
 
 
-class Alph(BaseElement):
+class alph(BaseElement):
     "\\alph"
     start_tag = "alph"
 
@@ -36,1586 +39,1581 @@ class Alphexample(BaseElement):
     start_tag = "Alph example"
 
 
-class Alsoname(BaseElement):
+class alsoname(BaseElement):
     "\\alsoname"
     start_tag = "alsoname"
 
 
-class AndforAuthor(BaseElement):
+class andforAuthor(BaseElement):
     "\\and for author"
     start_tag = "and for author"
 
 
-class Appendix(BaseElement):
+class appendix(BaseElement):
     "\\appendix"
     start_tag = "appendix"
 
 
-class Arabic(BaseElement):
+class arabic(BaseElement):
     "\\arabic"
     start_tag = "arabic"
 
 
-class Arraycolsep(BaseElement):
+class arraycolsep(BaseElement):
     "\\arraycolsep"
     start_tag = "arraycolsep"
 
 
-class Arrayrulewidth(BaseElement):
+class arrayrulewidth(BaseElement):
     "\\arrayrulewidth"
     start_tag = "arrayrulewidth"
 
 
-class Arraystretch(BaseElement):
+class arraystretch(BaseElement):
     "\\arraystretch"
     start_tag = "arraystretch"
 
 
-class Baselineskip(BaseElement):
+class baselineskip(BaseElement):
     "\\baselineskip"
     start_tag = "baselineskip"
 
 
-class Baselinestretch(BaseElement):
+class baselinestretch(BaseElement):
     "\\baselinestretch"
     start_tag = "baselinestretch"
 
 
-class Begin(BaseElement):
+class begin(BaseElement):
     "\\begin"
     start_tag = "begin"
 
 
-class Bf(BaseElement):
+class bf(BaseElement):
     "\\bf"
     start_tag = "bf"
 
 
-class Bfseries(BaseElement):
+class bfseries(BaseElement):
     "\\bfseries"
     start_tag = "bfseries"
 
 
-class Bibitem(BaseElement):
+class bibitem(BaseElement):
     "\\bibitem"
     start_tag = "bibitem"
 
 
-class Bibliography(BaseElement):
+class bibliography(BaseElement):
     "\\bibliography"
     start_tag = "bibliography"
 
 
-class Bibliographystyle(BaseElement):
+class bibliographystyle(BaseElement):
     "\\bibliographystyle"
     start_tag = "bibliographystyle"
 
 
-class Bigskip(BaseElement):
+class bigskip(BaseElement):
     "\\bigskip"
     start_tag = "bigskip"
 
 
-class Bigskipamount(BaseElement):
+class bigskipamount(BaseElement):
     "\\bigskipamount"
     start_tag = "bigskipamount"
 
 
-class Bmod(BaseElement):
+class bmod(BaseElement):
     "\\bmod"
     start_tag = "bmod"
 
 
-class Boldmath(BaseElement):
+class boldmath(BaseElement):
     "\\boldmath"
     start_tag = "boldmath"
 
 
-class Bottomfraction(BaseElement):
+class bottomfraction(BaseElement):
     "\\bottomfraction"
     start_tag = "bottomfraction"
 
 
-class Cal(BaseElement):
-    "\\cal"
+class cal(BaseElement):
+    "\cal"
     start_tag = "cal"
 
 
-class Caption(BaseElement):
-    "\\caption"
+class caption(BaseElement):
+    "\caption"
     start_tag = "caption"
 
 
-class Cc(BaseElement):
-    "\\cc"
+class cc(BaseElement):
+    "\cc"
     start_tag = "cc"
 
 
-class Centering(BaseElement):
-    "\\centering"
+class centering(BaseElement):
+    "\centering"
     start_tag = "centering"
 
 
-class Chapter(BaseElement):
-    "\\chapter"
+class chapter(BaseElement):
+    "\chapter"
     start_tag = "chapter"
 
 
-class Circle(BaseElement):
-    "\\circle"
+class circle(BaseElement):
+    "\circle"
     start_tag = "circle"
 
 
-class Cite(BaseElement):
-    "\\cite"
+class cite(BaseElement):
+    "\cite"
     start_tag = "cite"
 
 
-class Cleardoublepage(BaseElement):
-    "\\cleardoublepage"
+class cleardoublepage(BaseElement):
+    "\cleardoublepage"
     start_tag = "cleardoublepage"
 
 
-class Clearpage(BaseElement):
-    "\\clearpage"
+class clearpage(BaseElement):
+    "\clearpage"
     start_tag = "clearpage"
 
 
-class Cline(BaseElement):
-    "\\cline"
+class cline(BaseElement):
+    "\cline"
     start_tag = "cline"
 
 
-class Closing(BaseElement):
-    "\\closing"
+class closing(BaseElement):
+    "\closing"
     start_tag = "closing"
 
 
-class Columnsep(BaseElement):
-    "\\columnsep"
+class columnsep(BaseElement):
+    "\columnsep"
     start_tag = "columnsep"
 
 
-class Columnseprule(BaseElement):
-    "\\columnseprule"
+class columnseprule(BaseElement):
+    "\columnseprule"
     start_tag = "columnseprule"
 
 
-class Columnwidth(BaseElement):
-    "\\columnwidth"
+class columnwidth(BaseElement):
+    "\columnwidth"
     start_tag = "columnwidth"
 
 
-class Contentsline(BaseElement):
-    "\\contentsline"
+class contentsline(BaseElement):
+    "\contentsline"
     start_tag = "contentsline"
 
 
-class Copyright(BaseElement):
-    "\\copyright"
+class copyright(BaseElement):
+    "\copyright"
     start_tag = "copyright"
 
 
-class Dag(BaseElement):
-    "\\dag"
+class dag(BaseElement):
+    "\dag"
     start_tag = "dag"
 
 
-class Dashbox(BaseElement):
-    "\\dashbox"
+class dashbox(BaseElement):
+    "\dashbox"
     start_tag = "dashbox"
 
 
-class Day(BaseElement):
-    "\\day"
+class day(BaseElement):
+    "\day"
     start_tag = "day"
 
 
-class Dblfloatpagefraction(BaseElement):
-    "\\dblfloatpagefraction"
+class dblfloatpagefraction(BaseElement):
+    "\dblfloatpagefraction"
     start_tag = "dblfloatpagefraction"
 
 
-class Dblfloatsep(BaseElement):
-    "\\dblfloatsep"
+class dblfloatsep(BaseElement):
+    "\dblfloatsep"
     start_tag = "dblfloatsep"
 
 
-class Dbltextfloatsep(BaseElement):
-    "\\dbltextfloatsep"
+class dbltextfloatsep(BaseElement):
+    "\dbltextfloatsep"
     start_tag = "dbltextfloatsep"
 
 
-class Dbltopfraction(BaseElement):
-    "\\dbltopfraction"
+class dbltopfraction(BaseElement):
+    "\dbltopfraction"
     start_tag = "dbltopfraction"
 
 
-class Ddag(BaseElement):
-    "\\ddag"
+class ddag(BaseElement):
+    "\ddag"
     start_tag = "ddag"
 
 
-class Depth(BaseElement):
-    "\\depth"
+class depth(BaseElement):
+    "\depth"
     start_tag = "depth"
 
 
-class Displaystyle(BaseElement):
-    "\\displaystyle"
+class displaystyle(BaseElement):
+    "\displaystyle"
     start_tag = "displaystyle"
 
 
-class Documentclass(BaseElement):
-    "\\documentclass"
+class documentclass(BaseElement):
+    "\documentclass"
     start_tag = "documentclass"
 
 
-class Dotfill(BaseElement):
-    "\\dotfill"
+class dotfill(BaseElement):
+    "\dotfill"
     start_tag = "dotfill"
 
 
-class Doublerulesep(BaseElement):
-    "\\doublerulesep"
+class doublerulesep(BaseElement):
+    "\doublerulesep"
     start_tag = "doublerulesep"
 
 
-class Emph(BaseElement):
-    "\\emph"
+class emph(BaseElement):
+    "\emph"
     start_tag = "emph"
 
 
-class Encl(BaseElement):
-    "\\encl"
+class encl(BaseElement):
+    "\encl"
     start_tag = "encl"
 
 
-class Enlargethispage(BaseElement):
-    "\\enlargethispage"
+class enlargethispage(BaseElement):
+    "\enlargethispage"
     start_tag = "enlargethispage"
 
 
-class Enumi(BaseElement):
-    "\\enumi"
+class enumi(BaseElement):
+    "\enumi"
     start_tag = "enumi"
 
 
-class Enumii(BaseElement):
-    "\\enumii"
+class enumii(BaseElement):
+    "\enumii"
     start_tag = "enumii"
 
 
-class Enumiii(BaseElement):
-    "\\enumiii"
+class enumiii(BaseElement):
+    "\enumiii"
     start_tag = "enumiii"
 
 
-class Enumiv(BaseElement):
-    "\\enumiv"
+class enumiv(BaseElement):
+    "\enumiv"
     start_tag = "enumiv"
 
 
-class Evensidemargin(BaseElement):
-    "\\evensidemargin"
+class evensidemargin(BaseElement):
+    "\evensidemargin"
     start_tag = "evensidemargin"
 
 
-class Fbox(BaseElement):
+class fbox(BaseElement):
     "\\fbox"
     start_tag = "fbox"
 
 
-class Fboxrule(BaseElement):
+class fboxrule(BaseElement):
     "\\fboxrule"
     start_tag = "fboxrule"
 
 
-class Fboxsep(BaseElement):
+class fboxsep(BaseElement):
     "\\fboxsep"
     start_tag = "fboxsep"
 
 
-class Fill(BaseElement):
+class fill(BaseElement):
     "\\fill"
     start_tag = "fill"
 
 
-class Floatpagefraction(BaseElement):
+class floatpagefraction(BaseElement):
     "\\floatpagefraction"
     start_tag = "floatpagefraction"
 
 
-class Floatsep(BaseElement):
+class floatsep(BaseElement):
     "\\floatsep"
     start_tag = "floatsep"
 
 
-class Flushbottom(BaseElement):
+class flushbottom(BaseElement):
     "\\flushbottom"
     start_tag = "flushbottom"
 
 
-class Fnsymbol(BaseElement):
+class fnsymbol(BaseElement):
     "\\fnsymbol"
     start_tag = "fnsymbol"
 
 
-class Fontencoding(BaseElement):
+class fontencoding(BaseElement):
     "\\fontencoding"
     start_tag = "fontencoding"
 
 
-class Fontfamily(BaseElement):
+class fontfamily(BaseElement):
     "\\fontfamily"
     start_tag = "fontfamily"
 
 
-class Fontseries(BaseElement):
+class fontseries(BaseElement):
     "\\fontseries"
     start_tag = "fontseries"
 
 
-class Fontshape(BaseElement):
+class fontshape(BaseElement):
     "\\fontshape"
     start_tag = "fontshape"
 
 
-class Fontsize(BaseElement):
+class fontsize(BaseElement):
     "\\fontsize"
     start_tag = "fontsize"
 
 
-class Footnote(BaseElement):
+class footnote(BaseElement):
     "\\footnote"
     start_tag = "footnote"
 
 
-class Footnotemark(BaseElement):
+class footnotemark(BaseElement):
     "\\footnotemark"
     start_tag = "footnotemark"
 
 
-class Footnoterule(BaseElement):
+class footnoterule(BaseElement):
     "\\footnoterule"
     start_tag = "footnoterule"
 
 
-class Footnotesep(BaseElement):
+class footnotesep(BaseElement):
     "\\footnotesep"
     start_tag = "footnotesep"
 
 
-class Footnotesize(BaseElement):
+class footnotesize(BaseElement):
     "\\footnotesize"
     start_tag = "footnotesize"
 
 
-class Footnotetext(BaseElement):
+class footnotetext(BaseElement):
     "\\footnotetext"
     start_tag = "footnotetext"
 
 
-class Footskip(BaseElement):
+class footskip(BaseElement):
     "\\footskip"
     start_tag = "footskip"
 
 
-class Frame(BaseElement):
+class frame(BaseElement):
     "\\frame"
     start_tag = "frame"
 
 
-class Framebox(BaseElement):
+class framebox(BaseElement):
     "\\framebox"
     start_tag = "framebox"
 
 
-class Fussy(BaseElement):
+class fussy(BaseElement):
     "\\fussy"
     start_tag = "fussy"
 
 
-class Gets(BaseElement):
-    "\\gets"
+class gets(BaseElement):
+    "\gets"
     start_tag = "gets"
 
 
-class Glossary(BaseElement):
-    "\\glossary"
+class glossary(BaseElement):
+    "\glossary"
     start_tag = "glossary"
 
 
-class Glossaryentry(BaseElement):
-    "\\glossaryentry"
+class glossaryentry(BaseElement):
+    "\glossaryentry"
     start_tag = "glossaryentry"
 
 
-class Headheight(BaseElement):
-    "\\headheight"
+class headheight(BaseElement):
+    "\headheight"
     start_tag = "headheight"
 
 
-class Headsep(BaseElement):
-    "\\headsep"
+class headsep(BaseElement):
+    "\headsep"
     start_tag = "headsep"
 
 
-class Height(BaseElement):
-    "\\height"
+class height(BaseElement):
+    "\height"
     start_tag = "height"
 
 
-class Hfill(BaseElement):
-    "\\hfill"
+class hfill(BaseElement):
+    "\hfill"
     start_tag = "hfill"
 
 
-class Hline(BaseElement):
-    "\\hline"
+class hline(BaseElement):
+    "\hline"
     start_tag = "hline"
 
 
-class Hrulefill(BaseElement):
-    "\\hrulefill"
+class hrulefill(BaseElement):
+    "\hrulefill"
     start_tag = "hrulefill"
 
 
-class Hspace(BaseElement):
-    "\\hspace"
+class hspace(BaseElement):
+    "\hspace"
     start_tag = "hspace"
 
 
 class Huge(BaseElement):
-    "\\Huge"
+    "\Huge"
     start_tag = "Huge"
 
 
-class Huge(BaseElement):
-    "\\huge"
+class huge(BaseElement):
+    "\huge"
     start_tag = "huge"
 
 
-class Hyphenation(BaseElement):
-    "\\hyphenation"
+class hyphenation(BaseElement):
+    "\hyphenation"
     start_tag = "hyphenation"
 
 
-class Iff(BaseElement):
-    "\\iff"
+class iff(BaseElement):
+    "\iff"
     start_tag = "iff"
 
 
-class Include(BaseElement):
-    "\\include"
+class include(BaseElement):
+    "\include"
     start_tag = "include"
 
 
-class Includeonly(BaseElement):
-    "\\includeonly"
+class includeonly(BaseElement):
+    "\includeonly"
     start_tag = "includeonly"
 
 
-class Indent(BaseElement):
-    "\\indent"
+class indent(BaseElement):
+    "\indent"
     start_tag = "indent"
 
 
-class Index(BaseElement):
-    "\\index"
+class index(BaseElement):
+    "\index"
     start_tag = "index"
 
 
-class Indexentry(BaseElement):
-    "\\indexentry"
+class indexentry(BaseElement):
+    "\indexentry"
     start_tag = "indexentry"
 
 
 class Input(BaseElement):
-    "\\input"
+    "\input"
     start_tag = "input"
 
 
-class Intextsep(BaseElement):
-    "\\intextsep"
+class intextsep(BaseElement):
+    "\intextsep"
     start_tag = "intextsep"
 
 
-class Item(BaseElement):
-    "\\item"
+class item(BaseElement):
+    "\item"
     start_tag = "item"
 
 
-class Itemindent(BaseElement):
-    "\\itemindent"
+class itemindent(BaseElement):
+    "\itemindent"
     start_tag = "itemindent"
 
 
-class Itemsep(BaseElement):
-    "\\itemsep"
+class itemsep(BaseElement):
+    "\itemsep"
     start_tag = "itemsep"
 
 
-class Itshape(BaseElement):
-    "\\itshape"
+class itshape(BaseElement):
+    "\itshape"
     start_tag = "itshape"
 
 
-class Kill(BaseElement):
-    "\\kill"
+class kill(BaseElement):
+    "\kill"
     start_tag = "kill"
 
 
-class Label(BaseElement):
-    "\\label"
+class label(BaseElement):
+    "\label"
     start_tag = "label"
 
 
-class Labelenumi(BaseElement):
-    "\\labelenumi"
+class labelenumi(BaseElement):
+    "\labelenumi"
     start_tag = "labelenumi"
 
 
-class Labelenumii(BaseElement):
-    "\\labelenumii"
+class labelenumii(BaseElement):
+    "\labelenumii"
     start_tag = "labelenumii"
 
 
-class Labelenumiii(BaseElement):
-    "\\labelenumiii"
+class labelenumiii(BaseElement):
+    "\labelenumiii"
     start_tag = "labelenumiii"
 
 
-class Labelenumiv(BaseElement):
-    "\\labelenumiv"
+class labelenumiv(BaseElement):
+    "\labelenumiv"
     start_tag = "labelenumiv"
 
 
-class Labelitemi(BaseElement):
-    "\\labelitemi"
+class labelitemi(BaseElement):
+    "\labelitemi"
     start_tag = "labelitemi"
 
 
-class Labelitemii(BaseElement):
-    "\\labelitemii"
+class labelitemii(BaseElement):
+    "\labelitemii"
     start_tag = "labelitemii"
 
 
-class Labelitemiii(BaseElement):
-    "\\labelitemiii"
+class labelitemiii(BaseElement):
+    "\labelitemiii"
     start_tag = "labelitemiii"
 
 
-class Labelitemiv(BaseElement):
-    "\\labelitemiv"
+class labelitemiv(BaseElement):
+    "\labelitemiv"
     start_tag = "labelitemiv"
 
 
-class Labelsep(BaseElement):
-    "\\labelsep"
+class labelsep(BaseElement):
+    "\labelsep"
     start_tag = "labelsep"
 
 
-class Labelwidth(BaseElement):
-    "\\labelwidth"
+class labelwidth(BaseElement):
+    "\labelwidth"
     start_tag = "labelwidth"
 
 
-class Land(BaseElement):
-    "\\land"
+class land(BaseElement):
+    "\land"
     start_tag = "land"
 
 
-class Large(BaseElement):
-    "\\LARGE"
+class LARGE(BaseElement):
+    "\LARGE"
     start_tag = "LARGE"
 
 
 class Large(BaseElement):
-    "\\Large"
+    "\Large"
     start_tag = "Large"
 
 
-class Large(BaseElement):
-    "\\large"
+class large(BaseElement):
+    "\large"
     start_tag = "large"
 
 
-class Latex(BaseElement):
-    "\\LaTeX"
+class LaTeX(BaseElement):
+    "\LaTeX"
     start_tag = "LaTeX"
 
 
-class Le(BaseElement):
-    "\\le"
+class le(BaseElement):
+    "\le"
     start_tag = "le"
 
 
-class Left(BaseElement):
-    "\\left"
+class left(BaseElement):
+    "\left"
     start_tag = "left"
 
 
-class Leadsto(BaseElement):
-    "\\leadsto"
+class leadsto(BaseElement):
+    "\leadsto"
     start_tag = "leadsto"
 
 
-class Lefteqn(BaseElement):
-    "\\lefteqn"
+class lefteqn(BaseElement):
+    "\lefteqn"
     start_tag = "lefteqn"
 
 
-class Leftmargin(BaseElement):
-    "\\leftmargin"
+class leftmargin(BaseElement):
+    "\leftmargin"
     start_tag = "leftmargin"
 
 
-class Leftmargini(BaseElement):
-    "\\leftmargini"
+class leftmargini(BaseElement):
+    "\leftmargini"
     start_tag = "leftmargini"
 
 
-class Leftmarginii(BaseElement):
-    "\\leftmarginii"
+class leftmarginii(BaseElement):
+    "\leftmarginii"
     start_tag = "leftmarginii"
 
 
-class Leftmarginiii(BaseElement):
-    "\\leftmarginiii"
+class leftmarginiii(BaseElement):
+    "\leftmarginiii"
     start_tag = "leftmarginiii"
 
 
-class Leftmarginiv(BaseElement):
-    "\\leftmarginiv"
+class leftmarginiv(BaseElement):
+    "\leftmarginiv"
     start_tag = "leftmarginiv"
 
 
-class Leftmarginv(BaseElement):
-    "\\leftmarginv"
+class leftmarginv(BaseElement):
+    "\leftmarginv"
     start_tag = "leftmarginv"
 
 
-class Leftmarginvi(BaseElement):
-    "\\leftmarginvi"
+class leftmarginvi(BaseElement):
+    "\leftmarginvi"
     start_tag = "leftmarginvi"
 
 
-class Line(BaseElement):
-    "\\line"
+class line(BaseElement):
+    "\line"
     start_tag = "line"
 
 
-class Linebreak(BaseElement):
-    "\\linebreak"
+class linebreak(BaseElement):
+    "\linebreak"
     start_tag = "linebreak"
 
 
-class Linethickness(BaseElement):
-    "\\linethickness"
+class linethickness(BaseElement):
+    "\linethickness"
     start_tag = "linethickness"
 
 
-class Linewidth(BaseElement):
-    "\\linewidth"
+class linewidth(BaseElement):
+    "\linewidth"
     start_tag = "linewidth"
 
 
-class Listoffigures(BaseElement):
-    "\\listoffigures"
+class listoffigures(BaseElement):
+    "\listoffigures"
     start_tag = "listoffigures"
 
 
-class Listoftables(BaseElement):
-    "\\listoftables"
+class listoftables(BaseElement):
+    "\listoftables"
     start_tag = "listoftables"
 
 
-class Listparindent(BaseElement):
-    "\\listparindent"
+class listparindent(BaseElement):
+    "\listparindent"
     start_tag = "listparindent"
 
 
-class Lnot(BaseElement):
-    "\\lnot"
+class lnot(BaseElement):
+    "\lnot"
     start_tag = "lnot"
 
 
-class Location(BaseElement):
-    "\\location"
+class location(BaseElement):
+    "\location"
     start_tag = "location"
 
 
-class Lor(BaseElement):
-    "\\lor"
+class lor(BaseElement):
+    "\lor"
     start_tag = "lor"
 
 
-class Lq(BaseElement):
-    "\\lq"
+class lq(BaseElement):
+    "\lq"
     start_tag = "lq"
 
 
-class Makebox(BaseElement):
-    "\\makebox"
+class makebox(BaseElement):
+    "\makebox"
     start_tag = "makebox"
 
 
-class Makebox(BaseElement):
-    "\\makebox"
+class none(BaseElement):
+    "\makebox"
     start_tag = "makebox "
 
 
-class Makeglossary(BaseElement):
-    "\\makeglossary"
+class makeglossary(BaseElement):
+    "\makeglossary"
     start_tag = "makeglossary"
 
 
-class Makeindex(BaseElement):
-    "\\makeindex"
+class makeindex(BaseElement):
+    "\makeindex"
     start_tag = "makeindex"
 
 
-class Makelabels(BaseElement):
-    "\\makelabels"
+class makelabels(BaseElement):
+    "\makelabels"
     start_tag = "makelabels"
 
 
-class Maketitle(BaseElement):
-    "\\maketitle"
+class maketitle(BaseElement):
+    "\maketitle"
     start_tag = "maketitle"
 
 
-class Marginpar(BaseElement):
-    "\\marginpar"
+class marginpar(BaseElement):
+    "\marginpar"
     start_tag = "marginpar"
 
 
-class Marginparpush(BaseElement):
-    "\\marginparpush"
+class marginparpush(BaseElement):
+    "\marginparpush"
     start_tag = "marginparpush"
 
 
-class Marginparsep(BaseElement):
-    "\\marginparsep"
+class marginparsep(BaseElement):
+    "\marginparsep"
     start_tag = "marginparsep"
 
 
-class Marginparwidth(BaseElement):
-    "\\marginparwidth"
+class marginparwidth(BaseElement):
+    "\marginparwidth"
     start_tag = "marginparwidth"
 
 
-class Mathbf(BaseElement):
-    "\\mathbf"
+class mathbf(BaseElement):
+    "\mathbf"
     start_tag = "mathbf"
 
 
-class Mathcal(BaseElement):
-    "\\mathcal"
+class mathcal(BaseElement):
+    "\mathcal"
     start_tag = "mathcal"
 
 
-class Mathnormal(BaseElement):
-    "\\mathnormal"
+class mathnormal(BaseElement):
+    "\mathnormal"
     start_tag = "mathnormal"
 
 
-class Mathrm(BaseElement):
-    "\\mathrm"
+class mathrm(BaseElement):
+    "\mathrm"
     start_tag = "mathrm"
 
 
-class Mathsf(BaseElement):
-    "\\mathsf"
+class mathsf(BaseElement):
+    "\mathsf"
     start_tag = "mathsf"
 
 
-class Mathtt(BaseElement):
-    "\\mathtt"
+class mathtt(BaseElement):
+    "\mathtt"
     start_tag = "mathtt"
 
 
-class Mathversion(BaseElement):
-    "\\mathversion"
+class mathversion(BaseElement):
+    "\mathversion"
     start_tag = "mathversion"
 
 
-class Mbox(BaseElement):
-    "\\mbox"
+class mbox(BaseElement):
+    "\mbox"
     start_tag = "mbox"
 
 
-class Mdseries(BaseElement):
-    "\\mdseries"
+class mdseries(BaseElement):
+    "\mdseries"
     start_tag = "mdseries"
 
 
-class Medskip(BaseElement):
-    "\\medskip"
+class medskip(BaseElement):
+    "\medskip"
     start_tag = "medskip"
 
 
-class Medskipamount(BaseElement):
-    "\\medskipamount"
+class medskipamount(BaseElement):
+    "\medskipamount"
     start_tag = "medskipamount"
 
 
-class Month(BaseElement):
-    "\\month"
+class month(BaseElement):
+    "\month"
     start_tag = "month"
 
 
-class Multicolumn(BaseElement):
-    "\\multicolumn"
+class multicolumn(BaseElement):
+    "\multicolumn"
     start_tag = "multicolumn"
 
 
-class Multiput(BaseElement):
-    "\\multiput"
+class multiput(BaseElement):
+    "\multiput"
     start_tag = "multiput"
 
 
-class Name(BaseElement):
+class name(BaseElement):
     "\\name"
     start_tag = "name"
 
 
-class Newcommand(BaseElement):
+class newcommand(BaseElement):
     "\\newcommand"
     start_tag = "newcommand"
 
 
-class Newcounter(BaseElement):
+class newcounter(BaseElement):
     "\\newcounter"
     start_tag = "newcounter"
 
 
-class Newenvironment(BaseElement):
+class newenvironment(BaseElement):
     "\\newenvironment"
     start_tag = "newenvironment"
 
 
-class Newfont(BaseElement):
+class newfont(BaseElement):
     "\\newfont"
     start_tag = "newfont"
 
 
-class Newlength(BaseElement):
+class newlength(BaseElement):
     "\\newlength"
     start_tag = "newlength"
 
 
-class Newline(BaseElement):
+class NEWLINE(BaseElement):
     "\\NEWLINE"
     start_tag = "NEWLINE"
 
 
-class Newline(BaseElement):
+class newline(BaseElement):
     "\\newline"
     start_tag = "newline"
 
 
-class Newpage(BaseElement):
+class newpage(BaseElement):
     "\\newpage"
     start_tag = "newpage"
 
 
-class Newsavebox(BaseElement):
+class newsavebox(BaseElement):
     "\\newsavebox"
     start_tag = "newsavebox"
 
 
-class Newtheorem(BaseElement):
+class newtheorem(BaseElement):
     "\\newtheorem"
     start_tag = "newtheorem"
 
 
-class Nocite(BaseElement):
+class nocite(BaseElement):
     "\\nocite"
     start_tag = "nocite"
 
 
-class Nofiles(BaseElement):
+class nofiles(BaseElement):
     "\\nofiles"
     start_tag = "nofiles"
 
 
-class Noindent(BaseElement):
+class noindent(BaseElement):
     "\\noindent"
     start_tag = "noindent"
 
 
-class Nolinebreak(BaseElement):
+class nolinebreak(BaseElement):
     "\\nolinebreak"
     start_tag = "nolinebreak"
 
 
-class Nonumber(BaseElement):
+class nonumber(BaseElement):
     "\\nonumber"
     start_tag = "nonumber"
 
 
-class Nopagebreak(BaseElement):
+class nopagebreak(BaseElement):
     "\\nopagebreak"
     start_tag = "nopagebreak"
 
 
-class Normalfont(BaseElement):
+class normalfont(BaseElement):
     "\\normalfont"
     start_tag = "normalfont"
 
 
-class Normalmarginpar(BaseElement):
+class normalmarginpar(BaseElement):
     "\\normalmarginpar"
     start_tag = "normalmarginpar"
 
 
-class Normalsize(BaseElement):
+class normalsize(BaseElement):
     "\\normalsize"
     start_tag = "normalsize"
 
 
-class Oe(BaseElement):
-    "\\oe"
+class oe(BaseElement):
+    "\oe"
     start_tag = "oe"
 
 
-class Onecolumn(BaseElement):
-    "\\onecolumn"
+class onecolumn(BaseElement):
+    "\onecolumn"
     start_tag = "onecolumn"
 
 
-class Opening(BaseElement):
-    "\\opening"
+class opening(BaseElement):
+    "\opening"
     start_tag = "opening"
 
 
-class Oval(BaseElement):
-    "\\oval"
+class oval(BaseElement):
+    "\oval"
     start_tag = "oval"
 
 
-class Owns(BaseElement):
-    "\\owns"
+class owns(BaseElement):
+    "\owns"
     start_tag = "owns"
 
 
 class P(BaseElement):
-    "\\P"
+    "\P"
     start_tag = "P"
 
 
-class Pagebreak(BaseElement):
-    "\\pagebreak"
+class pagebreak(BaseElement):
+    "\pagebreak"
     start_tag = "pagebreak"
 
 
-class Pagenumbering(BaseElement):
-    "\\pagenumbering"
+class pagenumbering(BaseElement):
+    "\pagenumbering"
     start_tag = "pagenumbering"
 
 
-class Pageref(BaseElement):
-    "\\pageref"
+class pageref(BaseElement):
+    "\pageref"
     start_tag = "pageref"
 
 
-class Pagestyle(BaseElement):
-    "\\pagestyle"
+class pagestyle(BaseElement):
+    "\pagestyle"
     start_tag = "pagestyle"
 
 
-class Paragraph(BaseElement):
-    "\\paragraph"
+class paragraph(BaseElement):
+    "\paragraph"
     start_tag = "paragraph"
 
 
-class Parbox(BaseElement):
-    "\\parbox"
+class parbox(BaseElement):
+    "\parbox"
     start_tag = "parbox"
 
 
-class Parindent(BaseElement):
-    "\\parindent"
+class parindent(BaseElement):
+    "\parindent"
     start_tag = "parindent"
 
 
-class Parsep(BaseElement):
-    "\\parsep"
+class parsep(BaseElement):
+    "\parsep"
     start_tag = "parsep"
 
 
-class Parskip(BaseElement):
-    "\\parskip"
+class parskip(BaseElement):
+    "\parskip"
     start_tag = "parskip"
 
 
-class Parskipexample(BaseElement):
-    "\\parskip example"
+class parskipexample(BaseElement):
+    "\parskip example"
     start_tag = "parskip example"
 
 
-class Part(BaseElement):
-    "\\part"
+class part(BaseElement):
+    "\part"
     start_tag = "part"
 
 
-class Partopsep(BaseElement):
-    "\\partopsep"
+class partopsep(BaseElement):
+    "\partopsep"
     start_tag = "partopsep"
 
 
-class Pmod(BaseElement):
-    "\\pmod"
+class pmod(BaseElement):
+    "\pmod"
     start_tag = "pmod"
 
 
-class Poptabs(BaseElement):
-    "\\poptabs"
+class poptabs(BaseElement):
+    "\poptabs"
     start_tag = "poptabs"
 
 
-class Pounds(BaseElement):
-    "\\pounds"
+class pounds(BaseElement):
+    "\pounds"
     start_tag = "pounds"
 
 
-class Protect(BaseElement):
-    "\\protect"
+class protect(BaseElement):
+    "\protect"
     start_tag = "protect"
 
 
-class Ps(BaseElement):
-    "\\ps"
+class ps(BaseElement):
+    "\ps"
     start_tag = "ps"
 
 
-class Pushtabs(BaseElement):
-    "\\pushtabs"
+class pushtabs(BaseElement):
+    "\pushtabs"
     start_tag = "pushtabs"
 
 
-class Put(BaseElement):
-    "\\put"
+class put(BaseElement):
+    "\put"
     start_tag = "put"
 
 
-class Raggedbottom(BaseElement):
+class raggedbottom(BaseElement):
     "\\raggedbottom"
     start_tag = "raggedbottom"
 
 
-class Raggedleft(BaseElement):
+class raggedleft(BaseElement):
     "\\raggedleft"
     start_tag = "raggedleft"
 
 
-class Raggedright(BaseElement):
+class raggedright(BaseElement):
     "\\raggedright"
     start_tag = "raggedright"
 
 
-class Raisebox(BaseElement):
+class raisebox(BaseElement):
     "\\raisebox"
     start_tag = "raisebox"
 
 
-class Ref(BaseElement):
+class ref(BaseElement):
     "\\ref"
     start_tag = "ref"
 
 
-class Refstepcounter(BaseElement):
+class refstepcounter(BaseElement):
     "\\refstepcounter"
     start_tag = "refstepcounter"
 
 
-class Renewenvironment(BaseElement):
+class renewenvironment(BaseElement):
     "\\renewenvironment"
     start_tag = "renewenvironment"
 
 
-class Restorecr(BaseElement):
+class restorecr(BaseElement):
     "\\restorecr"
     start_tag = "restorecr"
 
 
-class Reversemarginpar(BaseElement):
+class reversemarginpar(BaseElement):
     "\\reversemarginpar"
     start_tag = "reversemarginpar"
 
 
-class Right(BaseElement):
+class right(BaseElement):
     "\\right"
     start_tag = "right"
 
 
-class Rightmargin(BaseElement):
+class rightmargin(BaseElement):
     "\\rightmargin"
     start_tag = "rightmargin"
 
 
-class Rm(BaseElement):
+class rm(BaseElement):
     "\\rm"
     start_tag = "rm"
 
 
-class Rmfamily(BaseElement):
+class rmfamily(BaseElement):
     "\\rmfamily"
     start_tag = "rmfamily"
 
 
-class Roman(BaseElement):
+class roman(BaseElement):
     "\\roman"
     start_tag = "roman"
 
 
-class Rq(BaseElement):
+class rq(BaseElement):
     "\\rq"
     start_tag = "rq"
 
 
-class Rule(BaseElement):
+class rule(BaseElement):
     "\\rule"
     start_tag = "rule"
 
 
-class Savebox(BaseElement):
-    "\\savebox"
+class savebox(BaseElement):
+    "\savebox"
     start_tag = "savebox"
 
 
-class Sbox(BaseElement):
-    "\\sbox"
+class sbox(BaseElement):
+    "\sbox"
     start_tag = "sbox"
 
 
-class Sc(BaseElement):
-    "\\sc"
+class sc(BaseElement):
+    "\sc"
     start_tag = "sc"
 
 
-class Scriptsize(BaseElement):
-    "\\scriptsize"
+class scriptsize(BaseElement):
+    "\scriptsize"
     start_tag = "scriptsize"
 
 
-class Scshape(BaseElement):
-    "\\scshape"
+class scshape(BaseElement):
+    "\scshape"
     start_tag = "scshape"
 
 
-class Section(BaseElement):
-    "\\section"
+class section(BaseElement):
+    "\section"
     start_tag = "section"
 
 
-class Seename(BaseElement):
-    "\\seename"
+class seename(BaseElement):
+    "\seename"
     start_tag = "seename"
 
 
-class Selectfont(BaseElement):
-    "\\selectfont"
+class selectfont(BaseElement):
+    "\selectfont"
     start_tag = "selectfont"
 
 
-class Setcounter(BaseElement):
-    "\\setcounter"
+class setcounter(BaseElement):
+    "\setcounter"
     start_tag = "setcounter"
 
 
-class Setlength(BaseElement):
-    "\\setlength"
+class setlength(BaseElement):
+    "\setlength"
     start_tag = "setlength"
 
 
-class Settodepth(BaseElement):
-    "\\settodepth"
+class settodepth(BaseElement):
+    "\settodepth"
     start_tag = "settodepth"
 
 
-class Settoheight(BaseElement):
-    "\\settoheight"
+class settoheight(BaseElement):
+    "\settoheight"
     start_tag = "settoheight"
 
 
-class Settowidth(BaseElement):
-    "\\settowidth"
+class settowidth(BaseElement):
+    "\settowidth"
     start_tag = "settowidth"
 
 
-class Sf(BaseElement):
-    "\\sf"
+class sf(BaseElement):
+    "\sf"
     start_tag = "sf"
 
 
-class Sffamily(BaseElement):
-    "\\sffamily"
+class sffamily(BaseElement):
+    "\sffamily"
     start_tag = "sffamily"
 
 
-class Shortstack(BaseElement):
-    "\\shortstack"
+class shortstack(BaseElement):
+    "\shortstack"
     start_tag = "shortstack"
 
 
-class Signature(BaseElement):
-    "\\signature"
+class signature(BaseElement):
+    "\signature"
     start_tag = "signature"
 
 
-class Sl(BaseElement):
-    "\\sl"
+class sl(BaseElement):
+    "\sl"
     start_tag = "sl"
 
 
-class Slshape(BaseElement):
-    "\\slshape"
+class slshape(BaseElement):
+    "\slshape"
     start_tag = "slshape"
 
 
-class Small(BaseElement):
-    "\\small"
+class small(BaseElement):
+    "\small"
     start_tag = "small"
 
 
-class Smallint(BaseElement):
-    "\\smallint"
+class smallint(BaseElement):
+    "\smallint"
     start_tag = "smallint"
 
 
-class Smallskip(BaseElement):
-    "\\smallskip"
+class smallskip(BaseElement):
+    "\smallskip"
     start_tag = "smallskip"
 
 
-class Smallskipamount(BaseElement):
-    "\\smallskipamount"
+class smallskipamount(BaseElement):
+    "\smallskipamount"
     start_tag = "smallskipamount"
 
 
-class Space(BaseElement):
-    "\\SPACE"
+class SPACE(BaseElement):
+    "\SPACE"
     start_tag = "SPACE"
 
 
-class Ss(BaseElement):
-    "\\ss"
+class ss(BaseElement):
+    "\ss"
     start_tag = "ss"
 
 
-class Startbreaks(BaseElement):
-    "\\startbreaks"
+class startbreaks(BaseElement):
+    "\startbreaks"
     start_tag = "startbreaks"
 
 
-class Stepcounter(BaseElement):
-    "\\stepcounter"
+class stepcounter(BaseElement):
+    "\stepcounter"
     start_tag = "stepcounter"
 
 
-class Stop(BaseElement):
-    "\\stop"
+class stop(BaseElement):
+    "\stop"
     start_tag = "stop"
 
 
-class Stopbreaks(BaseElement):
-    "\\stopbreaks"
+class stopbreaks(BaseElement):
+    "\stopbreaks"
     start_tag = "stopbreaks"
 
 
-class Subparagraph(BaseElement):
-    "\\subparagraph"
+class subparagraph(BaseElement):
+    "\subparagraph"
     start_tag = "subparagraph"
 
 
-class Subsection(BaseElement):
-    "\\subsection"
+class subsection(BaseElement):
+    "\subsection"
     start_tag = "subsection"
 
 
-class Subsubsection(BaseElement):
-    "\\subsubsection"
+class subsubsection(BaseElement):
+    "\subsubsection"
     start_tag = "subsubsection"
 
 
-class Symbol(BaseElement):
-    "\\symbol"
+class symbol(BaseElement):
+    "\symbol"
     start_tag = "symbol"
 
 
-class Tab(BaseElement):
+class TAB(BaseElement):
     "\\TAB"
     start_tag = "TAB"
 
 
-class Tabbingsep(BaseElement):
+class tabbingsep(BaseElement):
     "\\tabbingsep"
     start_tag = "tabbingsep"
 
 
-class Tabcolsep(BaseElement):
+class tabcolsep(BaseElement):
     "\\tabcolsep"
     start_tag = "tabcolsep"
 
 
-class Tableofcontents(BaseElement):
+class tableofcontents(BaseElement):
     "\\tableofcontents"
     start_tag = "tableofcontents"
 
 
-class Telephone(BaseElement):
+class telephone(BaseElement):
     "\\telephone"
     start_tag = "telephone"
 
 
-class Tex(BaseElement):
+class TeX(BaseElement):
     "\\TeX"
     start_tag = "TeX"
 
 
-class Textbf(BaseElement):
+class textbf(BaseElement):
     "\\textbf"
     start_tag = "textbf"
 
 
-class Textfloatsep(BaseElement):
+class textfloatsep(BaseElement):
     "\\textfloatsep"
     start_tag = "textfloatsep"
 
 
-class Textfraction(BaseElement):
+class textfraction(BaseElement):
     "\\textfraction"
     start_tag = "textfraction"
 
 
-class Textheight(BaseElement):
+class textheight(BaseElement):
     "\\textheight"
     start_tag = "textheight"
 
 
-class Textit(BaseElement):
+class textit(BaseElement):
     "\\textit"
     start_tag = "textit"
 
 
-class Textmd(BaseElement):
+class textmd(BaseElement):
     "\\textmd"
     start_tag = "textmd"
 
 
-class Textnormal(BaseElement):
+class textnormal(BaseElement):
     "\\textnormal"
     start_tag = "textnormal"
 
 
-class Textrm(BaseElement):
+class textrm(BaseElement):
     "\\textrm"
     start_tag = "textrm"
 
 
-class Textsc(BaseElement):
+class textsc(BaseElement):
     "\\textsc"
     start_tag = "textsc"
 
 
-class Textsf(BaseElement):
+class textsf(BaseElement):
     "\\textsf"
     start_tag = "textsf"
 
 
-class Textsl(BaseElement):
+class textsl(BaseElement):
     "\\textsl"
     start_tag = "textsl"
 
 
-class Texttt(BaseElement):
+class texttt(BaseElement):
     "\\texttt"
     start_tag = "texttt"
 
 
-class Textup(BaseElement):
+class textup(BaseElement):
     "\\textup"
     start_tag = "textup"
 
 
-class Textwidth(BaseElement):
+class textwidth(BaseElement):
     "\\textwidth"
     start_tag = "textwidth"
 
 
-class Thicklines(BaseElement):
+class thicklines(BaseElement):
     "\\thicklines"
     start_tag = "thicklines"
 
 
-class Thinlines(BaseElement):
+class thinlines(BaseElement):
     "\\thinlines"
     start_tag = "thinlines"
 
 
-class Thinspace(BaseElement):
+class thinspace(BaseElement):
     "\\thinspace"
     start_tag = "thinspace"
 
 
-class Thispagestyle(BaseElement):
+class thispagestyle(BaseElement):
     "\\thispagestyle"
     start_tag = "thispagestyle"
 
 
-class Tiny(BaseElement):
+class tiny(BaseElement):
     "\\tiny"
     start_tag = "tiny"
 
 
-class To(BaseElement):
+class to(BaseElement):
     "\\to"
     start_tag = "to"
 
 
-class Today(BaseElement):
+class today(BaseElement):
     "\\today"
     start_tag = "today"
 
 
-class Topfraction(BaseElement):
+class topfraction(BaseElement):
     "\\topfraction"
     start_tag = "topfraction"
 
 
-class Topmargin(BaseElement):
+class topmargin(BaseElement):
     "\\topmargin"
     start_tag = "topmargin"
 
 
-class Topsep(BaseElement):
+class topsep(BaseElement):
     "\\topsep"
     start_tag = "topsep"
 
 
-class Topskip(BaseElement):
+class topskip(BaseElement):
     "\\topskip"
     start_tag = "topskip"
 
 
-class Totalheight(BaseElement):
+class totalheight(BaseElement):
     "\\totalheight"
     start_tag = "totalheight"
 
 
-class Tt(BaseElement):
+class tt(BaseElement):
     "\\tt"
     start_tag = "tt"
 
 
-class Ttfamily(BaseElement):
+class ttfamily(BaseElement):
     "\\ttfamily"
     start_tag = "ttfamily"
 
 
-class Twocolumn(BaseElement):
+class twocolumn(BaseElement):
     "\\twocolumn"
     start_tag = "twocolumn"
 
 
-class Typein(BaseElement):
+class typein(BaseElement):
     "\\typein"
     start_tag = "typein"
 
 
-class Typeout(BaseElement):
+class typeout(BaseElement):
     "\\typeout"
     start_tag = "typeout"
 
 
-class U(BaseElement):
+class u(BaseElement):
     "\\u"
     start_tag = "u"
 
 
-class Unboldmath(BaseElement):
+class unboldmath(BaseElement):
     "\\unboldmath"
     start_tag = "unboldmath"
 
 
-class Unitlength(BaseElement):
+class unitlength(BaseElement):
     "\\unitlength"
     start_tag = "unitlength"
 
 
-class Upshape(BaseElement):
+class upshape(BaseElement):
     "\\upshape"
     start_tag = "upshape"
 
 
-class Usebox(BaseElement):
+class usebox(BaseElement):
     "\\usebox"
     start_tag = "usebox"
 
 
-class Usecounter(BaseElement):
+class usecounter(BaseElement):
     "\\usecounter"
     start_tag = "usecounter"
 
 
-class Usefont(BaseElement):
+class usefont(BaseElement):
     "\\usefont"
     start_tag = "usefont"
 
 
-class Usepackage(BaseElement):
+class usepackage(BaseElement):
     "\\usepackage"
     start_tag = "usepackage"
 
 
-class Value(BaseElement):
+class value(BaseElement):
     "\\value"
     start_tag = "value"
 
 
-class Vector(BaseElement):
+class vector(BaseElement):
     "\\vector"
     start_tag = "vector"
 
 
-class Verb(BaseElement):
+class verb(BaseElement):
     "\\verb"
     start_tag = "verb"
 
 
-class Vert(BaseElement):
+class vert(BaseElement):
     "\\vert"
     start_tag = "vert"
 
 
-class Vfill(BaseElement):
+class vfill(BaseElement):
     "\\vfill"
     start_tag = "vfill"
 
 
-class Vline(BaseElement):
+class vline(BaseElement):
     "\\vline"
     start_tag = "vline"
 
 
-class Vspace(BaseElement):
+class vspace(BaseElement):
     "\\vspace"
     start_tag = "vspace"
 
 
-class Width(BaseElement):
-    "\\width"
+class width(BaseElement):
+    "\width"
     start_tag = "width"
 
 
-class Year(BaseElement):
-    "\\year"
+class year(BaseElement):
+    "\year"
     start_tag = "year"
-
-
-class End(BaseElement):
-    "\\end"
-    start_tag = "end"

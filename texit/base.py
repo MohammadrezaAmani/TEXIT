@@ -169,8 +169,13 @@ class BaseElement(Base):
 
 
 class BaseVoidElement(BaseElement):
-    def render(self, prettify: bool = False):
-        return "\{self.start_tag}"
+    @classmethod
+    def render(cls, prettify: bool = False):
+        return f"\{cls.start_tag}"
+    
+    @classmethod
+    def __str__(cls):
+        return cls.render()
 
 
 class BaseSvgElement(Base):

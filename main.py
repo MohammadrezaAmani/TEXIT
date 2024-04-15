@@ -1,23 +1,21 @@
 from texit import startex
-from texit.elements import (Begin, Documentclass, End, Hline, Hspace, Newpage,
-                            Paragraph, Section, Subparagraph, Subsection,
-                            Subsubsection, Usepackage, Vspace)
+from texit.elements import *
 
 tex = startex(
-    Documentclass("article"),
-    Usepackage("geometry"),
-    Begin("document"),
-    Section("Hello World"),
-    Subsection("Hello World"),
-    Subsubsection("Hello World"),
-    Paragraph("Hello World"),
-    Subparagraph("Hello World"),
-    Newpage(),
-    Hspace("1cm"),
-    Vspace("1cm"),
-    Hline(),
+    documentclass("article"),
+    usepackage("geometry"),
+    begin("document"),
+    section("Hello World"),
+    subsection("Hello World"),
+    subsubsection("Hello World"),
+    paragraph("Hello World"),
+    subparagraph("Hello World"),
+    newpage(),
+    hspace("1cm"),
+    vspace("1cm"),
+    hline(),
     "hello world",
-    End("document"),
+    end("document"),
 )
 
 print(tex)
